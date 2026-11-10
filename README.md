@@ -19,6 +19,8 @@
 ### **frank-graves** | `DQC Interactive`
 **"I am a fucking lie, projects made full of prompts."**
 
+![Terminal Animation](./animacion.svg)
+
 *Soy un orquestador. Las IAs (DeepSeek, Qwen, Claude) escriben el código, yo diseño la arquitectura, dirijo el tráfico y aplico el control de calidad.*
 
 [![Stack](https://img.shields.io/badge/Stack-Rust%20%7C%20Python%20%7C%20Go%20%7C%20Bash-black?style=flat-square)](#)
