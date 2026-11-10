@@ -22,7 +22,7 @@
 
 **"I am a fucking lie, projects made full of prompts."**
 
-<img src="netherlands.svg" alt="Netherlands Flag Animation" width="400" />
+<img src="banner-nl.svg" alt="Bandera de Países Bajos ondeando, terminal que escribe sola y molino girando" width="860" />
 
 *Soy un orquestador. Las IAs (DeepSeek, Qwen, Claude) escriben el código, yo diseño la arquitectura, dirijo el tráfico y aplico el control de calidad.*
 
