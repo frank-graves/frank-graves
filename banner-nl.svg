@@ -1,36 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 240" width="860" height="240" role="img" aria-label="Waving Dutch flag, a terminal that types by itself and a spinning windmill" xmlns:c2pa="http://c2pa.org/manifest">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 240" width="860" height="240" role="img" aria-label="Waving Dutch flag, a terminal that types by itself and a spinning windmill">
   <defs>
+    <!-- Filtro de ondeo de bandera -->
     <filter id="wave" x="-5%" y="-10%" width="110%" height="120%">
       <feTurbulence type="turbulence" baseFrequency="0.008 0.02" numOctaves="1" seed="3" result="n">
         <animate attributeName="baseFrequency" dur="8s" values="0.008 0.02;0.012 0.035;0.008 0.02" repeatCount="indefinite"/>
       </feTurbulence>
       <feDisplacementMap in="SourceGraphic" in2="n" scale="16" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
-    <clipPath id="c1"><rect x="306" y="72" width="0" height="20">
-      <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.03;0.18;0.94;1"/>
-    </rect></clipPath>
-    <clipPath id="c2"><rect x="306" y="96" width="0" height="20">
-      <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.21;0.33;0.94;1"/>
-    </rect></clipPath>
-    <clipPath id="c3"><rect x="306" y="120" width="0" height="20">
-      <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.36;0.50;0.94;1"/>
-    </rect></clipPath>
-    <clipPath id="c4"><rect x="306" y="144" width="0" height="20">
-      <animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.53;0.65;0.94;1"/>
-    </rect></clipPath>
+
+    <!-- ClipPaths para Joke 1 (Original) -->
+    <clipPath id="c1_1"><rect x="306" y="72" width="0" height="20"><animate attributeName="width" begin="0s; 56s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.05;0.25;0.9;1"/></rect></clipPath>
+    <clipPath id="c1_2"><rect x="306" y="96" width="0" height="20"><animate attributeName="width" begin="0s; 56s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.25;0.45;0.9;1"/></rect></clipPath>
+    <clipPath id="c1_3"><rect x="306" y="120" width="0" height="20"><animate attributeName="width" begin="0s; 56s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.5;0.7;0.9;1"/></rect></clipPath>
+    <clipPath id="c1_4"><rect x="306" y="144" width="0" height="20"><animate attributeName="width" begin="0s; 56s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.75;0.9;0.9;1"/></rect></clipPath>
+
+    <!-- ClipPaths para Joke 2 (Rust) -->
+    <clipPath id="c2_1"><rect x="306" y="72" width="0" height="20"><animate attributeName="width" begin="8s; 64s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.05;0.25;0.9;1"/></rect></clipPath>
+    <clipPath id="c2_2"><rect x="306" y="96" width="0" height="20"><animate attributeName="width" begin="8s; 64s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.25;0.45;0.9;1"/></rect></clipPath>
+    <clipPath id="c2_3"><rect x="306" y="120" width="0" height="20"><animate attributeName="width" begin="8s; 64s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.5;0.7;0.9;1"/></rect></clipPath>
+    <clipPath id="c2_4"><rect x="306" y="144" width="0" height="20"><animate attributeName="width" begin="8s; 64s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.75;0.9;0.9;1"/></rect></clipPath>
+
+    <!-- ClipPaths para Joke 3 (Python) -->
+    <clipPath id="c3_1"><rect x="306" y="72" width="0" height="20"><animate attributeName="width" begin="16s; 72s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.05;0.25;0.9;1"/></rect></clipPath>
+    <clipPath id="c3_2"><rect x="306" y="96" width="0" height="20"><animate attributeName="width" begin="16s; 72s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.25;0.45;0.9;1"/></rect></clipPath>
+    <clipPath id="c3_3"><rect x="306" y="120" width="0" height="20"><animate attributeName="width" begin="16s; 72s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.5;0.7;0.9;1"/></rect></clipPath>
+    <clipPath id="c3_4"><rect x="306" y="144" width="0" height="20"><animate attributeName="width" begin="16s; 72s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.75;0.9;0.9;1"/></rect></clipPath>
+
+    <!-- ClipPaths para Joke 4 (Electron) -->
+    <clipPath id="c4_1"><rect x="306" y="72" width="0" height="20"><animate attributeName="width" begin="24s; 80s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.05;0.25;0.9;1"/></rect></clipPath>
+    <clipPath id="c4_2"><rect x="306" y="96" width="0" height="20"><animate attributeName="width" begin="24s; 80s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.25;0.45;0.9;1"/></rect></clipPath>
+    <clipPath id="c4_3"><rect x="306" y="120" width="0" height="20"><animate attributeName="width" begin="24s; 80s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.5;0.7;0.9;1"/></rect></clipPath>
+    <clipPath id="c4_4"><rect x="306" y="144" width="0" height="20"><animate attributeName="width" begin="24s; 80s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.75;0.9;0.9;1"/></rect></clipPath>
+
+    <!-- ClipPaths para Joke 5 (Go) -->
+    <clipPath id="c5_1"><rect x="306" y="72" width="0" height="20"><animate attributeName="width" begin="32s; 88s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.05;0.25;0.9;1"/></rect></clipPath>
+    <clipPath id="c5_2"><rect x="306" y="96" width="0" height="20"><animate attributeName="width" begin="32s; 88s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.25;0.45;0.9;1"/></rect></clipPath>
+    <clipPath id="c5_3"><rect x="306" y="120" width="0" height="20"><animate attributeName="width" begin="32s; 88s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.5;0.7;0.9;1"/></rect></clipPath>
+    <clipPath id="c5_4"><rect x="306" y="144" width="0" height="20"><animate attributeName="width" begin="32s; 88s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.75;0.9;0.9;1"/></rect></clipPath>
+
+    <!-- ClipPaths para Joke 6 (C/C++) -->
+    <clipPath id="c6_1"><rect x="306" y="72" width="0" height="20"><animate attributeName="width" begin="40s; 96s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.05;0.25;0.9;1"/></rect></clipPath>
+    <clipPath id="c6_2"><rect x="306" y="96" width="0" height="20"><animate attributeName="width" begin="40s; 96s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.25;0.45;0.9;1"/></rect></clipPath>
+    <clipPath id="c6_3"><rect x="306" y="120" width="0" height="20"><animate attributeName="width" begin="40s; 96s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.5;0.7;0.9;1"/></rect></clipPath>
+    <clipPath id="c6_4"><rect x="306" y="144" width="0" height="20"><animate attributeName="width" begin="40s; 96s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.75;0.9;0.9;1"/></rect></clipPath>
+
+    <!-- ClipPaths para Joke 7 (Netherlands) -->
+    <clipPath id="c7_1"><rect x="306" y="72" width="0" height="20"><animate attributeName="width" begin="48s; 104s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.05;0.25;0.9;1"/></rect></clipPath>
+    <clipPath id="c7_2"><rect x="306" y="96" width="0" height="20"><animate attributeName="width" begin="48s; 104s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.25;0.45;0.9;1"/></rect></clipPath>
+    <clipPath id="c7_3"><rect x="306" y="120" width="0" height="20"><animate attributeName="width" begin="48s; 104s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.5;0.7;0.9;1"/></rect></clipPath>
+    <clipPath id="c7_4"><rect x="306" y="144" width="0" height="20"><animate attributeName="width" begin="48s; 104s" dur="8s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.75;0.9;0.9;1"/></rect></clipPath>
   </defs>
 
-  <!-- fondo -->
+  <!-- Fondo -->
   <rect x="1" y="1" width="858" height="238" rx="12" fill="#0d1117" stroke="#30363d"/>
 
-  <!-- bandera -->
+  <!-- Bandera -->
   <g transform="translate(30,39)" filter="url(#wave)">
     <rect width="240" height="54" fill="#AE1C28"/>
     <rect y="54" width="240" height="54" fill="#FFFFFF"/>
     <rect y="108" width="240" height="54" fill="#21468B"/>
   </g>
 
-  <!-- terminal -->
+  <!-- Terminal -->
   <rect x="290" y="36" width="400" height="168" rx="8" fill="#010409" stroke="#30363d"/>
   <circle cx="306" cy="52" r="4.5" fill="#ff5f56"/>
   <circle cx="322" cy="52" r="4.5" fill="#ffbd2e"/>
@@ -38,12 +69,73 @@
   <text x="358" y="56" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e">frank@dqc:~</text>
 
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13">
-    <text x="306" y="86" clip-path="url(#c1)" fill="#c9d1d9"><tspan fill="#3fb950">$</tspan> claude "build me a website, please"</text>
-    <text x="306" y="110" clip-path="url(#c2)" fill="#8b949e">&gt; compiling... no idea what's compiling</text>
-    <text x="306" y="134" clip-path="url(#c3)" fill="#ffbd2e">! 0 lines written by me (skill issue)</text>
-    <text x="306" y="158" clip-path="url(#c4)" fill="#3fb950">&gt; ✓ gezellig. don't touch it.</text>
-    <g opacity="0">
-      <animate attributeName="opacity" dur="16s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.67;0.68;0.94;1"/>
+    
+    <!-- JOKE 1: Original -->
+    <g>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.1428;0.1429;0.99;1" dur="56s" repeatCount="indefinite" />
+      <text x="306" y="86" clip-path="url(#c1_1)" fill="#c9d1d9"><tspan fill="#3fb950">$</tspan> claude "build me a website, please"</text>
+      <text x="306" y="110" clip-path="url(#c1_2)" fill="#8b949e">&gt; compiling... no idea what's compiling</text>
+      <text x="306" y="134" clip-path="url(#c1_3)" fill="#ffbd2e">! 0 lines written by me (skill issue)</text>
+      <text x="306" y="158" clip-path="url(#c1_4)" fill="#3fb950">&gt; ✓ gezellig. don't touch it.</text>
+    </g>
+
+    <!-- JOKE 2: Rust -->
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1428;0.1429;0.2857;0.2858;1" dur="56s" repeatCount="indefinite" />
+      <text x="306" y="86" clip-path="url(#c2_1)" fill="#c9d1d9"><tspan fill="#3fb950">$</tspan> deepseek "build a memory-safe OS"</text>
+      <text x="306" y="110" clip-path="url(#c2_2)" fill="#8b949e">&gt; compiling... fighting the borrow checker</text>
+      <text x="306" y="134" clip-path="url(#c2_3)" fill="#ffbd2e">! 69420 lifetime errors (no leaks)</text>
+      <text x="306" y="158" clip-path="url(#c2_4)" fill="#3fb950">&gt; safe as fuck. don't touch it.</text>
+    </g>
+
+    <!-- JOKE 3: Python -->
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2857;0.2858;0.4285;0.4286;1" dur="56s" repeatCount="indefinite" />
+      <text x="306" y="86" clip-path="url(#c3_1)" fill="#c9d1d9"><tspan fill="#3fb950">$</tspan> qwen "fix my python script"</text>
+      <text x="306" y="110" clip-path="url(#c3_2)" fill="#8b949e">&gt; creating venv... pip installing...</text>
+      <text x="306" y="134" clip-path="url(#c3_3)" fill="#ffbd2e">! Dependency conflict: numpy 2.0</text>
+      <text x="306" y="158" clip-path="url(#c3_4)" fill="#3fb950">&gt; works on my machine (segfault)</text>
+    </g>
+
+    <!-- JOKE 4: Electron -->
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4285;0.4286;0.5714;0.5715;1" dur="56s" repeatCount="indefinite" />
+      <text x="306" y="86" clip-path="url(#c4_1)" fill="#c9d1d9"><tspan fill="#3fb950">$</tspan> claude "make a simple to-do app"</text>
+      <text x="306" y="110" clip-path="url(#c4_2)" fill="#8b949e">&gt; downloading react, webpack, electron</text>
+      <text x="306" y="134" clip-path="url(#c4_3)" fill="#ffbd2e">! 500MB of node_modules for a text box</text>
+      <text x="306" y="158" clip-path="url(#c4_4)" fill="#3fb950">&gt; vanilla js is for boomers.</text>
+    </g>
+
+    <!-- JOKE 5: Go -->
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5714;0.5715;0.7142;0.7143;1" dur="56s" repeatCount="indefinite" />
+      <text x="306" y="86" clip-path="url(#c5_1)" fill="#c9d1d9"><tspan fill="#3fb950">$</tspan> deepseek "make a hello world in Go"</text>
+      <text x="306" y="110" clip-path="url(#c5_2)" fill="#8b949e">&gt; downloading 1.2GB of Docker images</text>
+      <text x="306" y="134" clip-path="url(#c5_3)" fill="#ffbd2e">! 0 lines of Go written. 5 microservices</text>
+      <text x="306" y="158" clip-path="url(#c5_4)" fill="#3fb950">&gt; scalable. don't ask questions.</text>
+    </g>
+
+    <!-- JOKE 6: C/C++ -->
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7142;0.7143;0.8571;0.8572;1" dur="56s" repeatCount="indefinite" />
+      <text x="306" y="86" clip-path="url(#c6_1)" fill="#c9d1d9"><tspan fill="#3fb950">$</tspan> claude "optimize this C code"</text>
+      <text x="306" y="110" clip-path="url(#c6_2)" fill="#8b949e">&gt; analyzing pointers...</text>
+      <text x="306" y="134" clip-path="url(#c6_3)" fill="#ffbd2e">! Segmentation fault (core dumped)</text>
+      <text x="306" y="158" clip-path="url(#c6_4)" fill="#3fb950">&gt; undefined behavior is a mindset.</text>
+    </g>
+
+    <!-- JOKE 7: Netherlands -->
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.8571;0.8572;1" dur="56s" repeatCount="indefinite" />
+      <text x="306" y="86" clip-path="url(#c7_1)" fill="#c9d1d9"><tspan fill="#3fb950">$</tspan> qwen "clone Facebook but private"</text>
+      <text x="306" y="110" clip-path="url(#c7_2)" fill="#8b949e">&gt; routing traffic through 3 VPNs...</text>
+      <text x="306" y="134" clip-path="url(#c7_3)" fill="#ffbd2e">! 0 data collected. (Built a static page)</text>
+      <text x="306" y="158" clip-path="url(#c7_4)" fill="#3fb950">&gt; privacy is lekker.</text>
+    </g>
+
+    <!-- Cursor (parpadea en el momento justo de cada chiste) -->
+    <g>
+      <animate attributeName="opacity" dur="56s" repeatCount="indefinite" values="0;0;1;1;0;0;1;1;0;0;1;1;0;0;1;1;0;0;1;1;0;0;1;1;0;0;1;1;0" keyTimes="0;0.12;0.13;0.14;0.15;0.26;0.27;0.28;0.29;0.40;0.41;0.42;0.43;0.54;0.55;0.56;0.57;0.68;0.69;0.70;0.71;0.82;0.83;0.84;0.85;0.96;0.97;0.98;1"/>
       <text x="306" y="182" fill="#3fb950">$</text>
       <rect x="320" y="171" width="8" height="14" fill="#c9d1d9">
         <animate attributeName="opacity" dur="1s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.5;0.51;1"/>
@@ -51,7 +143,7 @@
     </g>
   </g>
 
-  <!-- molino -->
+  <!-- Molino -->
   <line x1="715" y1="200" x2="835" y2="200" stroke="#30363d" stroke-width="2"/>
   <polygon points="745,200 805,200 790,128 760,128" fill="#21468B"/>
   <rect x="768" y="178" width="14" height="22" rx="7" fill="#0d1117"/>
@@ -65,6 +157,6 @@
   </g>
   <circle cx="775" cy="120" r="6" fill="#AE1C28"/>
 
-  <!-- pie -->
+  <!-- Pie -->
   <text x="430" y="226" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#6e7681">NAP −2 m · sea level is just a suggestion</text>
-<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo2MDBkZWQwMi03MTdmLTQ3NDEtOWQzYy1hZWRiODc0MWYwZDEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaFMfQCD0XWqFDBUXk6Dj2FwAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmNWYxNDY3MS1iN2NmLTQ5MzktOTZkYy0wNmQ2YTE2OWJiNjlscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo1TjovdV/+LZOu8DfFQja/gAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggQFe8EHkE3w6hz5fkpaaDpLY9AbAn3CoCbBQtlC0iPbqkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaAuB5HfZ2oGGCO7uuNBaXpkAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYINeh/T7KdRmQCc0GYWDg4dNjUqBR73Ov5LtC/G9xh5KkZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GRDzZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjYwMGRlZDAyLTcxN2YtNDc0MS05ZDNjLWFlZGI4NzQxZjBkMS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmJlMmI3N2I3LTZiYzAtNGI3My1iMTQ5LTYxMWY4NGVhZjUzZHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBAV7wQeQTfDqHPl+SlpoOktj0BsCfcKgJsFC2ULSI9uqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggMdLUub/7Hy0qqbN4M1K1VgqRSFkhBmNTpoVnVyGjoOiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggBJwo4DZpyIlZ7MJN3susN9/lU/O5d8mipVO2WiY65A10Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQO5PGNDjuvyfnMagVFmT+3YxMDYPZHkFGAUPAtXRnmSJK1ifJBiWqoh+6LJmkDIBO7yOG9Xd1lWlkCt9D8pWPjc=</c2pa:manifest></metadata></svg>
+</svg>
