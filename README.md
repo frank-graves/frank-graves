@@ -19,7 +19,9 @@
 ### **frank-graves** | `DQC Interactive`
 **"I am a fucking lie, projects made full of prompts."**
 
-![Terminal Animation](./animacion.svg)
+<div align="center">
+  <img src="netherlands.svg" alt="Netherlands Flag Animation" width="400" />
+</div>
 
 *Soy un orquestador. Las IAs (DeepSeek, Qwen, Claude) escriben el código, yo diseño la arquitectura, dirijo el tráfico y aplico el control de calidad.*
 
