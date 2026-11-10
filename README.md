@@ -22,33 +22,33 @@
 
 **"I am a fucking lie, projects made full of prompts."**
 
-<img src="banner-nl.svg" alt="Bandera de Países Bajos ondeando, terminal que escribe sola y molino girando" width="860" />
+<img src="banner-nl.svg" alt="Waving Dutch flag, a terminal that types by itself and a spinning windmill" width="860" />
 
-*Soy un orquestador. Las IAs (DeepSeek, Qwen, Claude) escriben el código, yo diseño la arquitectura, dirijo el tráfico y aplico el control de calidad.*
+*I'm an orchestrator. The AIs (DeepSeek, Qwen, Claude) write the code; I design the architecture, direct the traffic and handle quality control.*
 
-[![Stack](https://img.shields.io/badge/Stack-Rust%20%7C%20Python%20%7C%20Go%20%7C%20Bash-black?style=flat-square)](#-proyectos-activos)
-[![Prompts](https://img.shields.io/badge/Código%20escrito%20a%20mano-0%25-red?style=flat-square)](#)
+[![Stack](https://img.shields.io/badge/Stack-Rust%20%7C%20Python%20%7C%20Go%20%7C%20Bash-black?style=flat-square)](#-active-projects)
+[![Prompts](https://img.shields.io/badge/Handwritten%20code-0%25-red?style=flat-square)](#)
 
 </div>
 
 ---
 
-## 🧠 Filosofía de Desarrollo
+## 🧠 Development Philosophy
 
-- **FOSS & Privacy-First:** 100% local, cero telemetría, cero dependencias en la nube.
-- **Rendimiento Nativo:** compilación estricta, control de memoria y binarios estáticos.
-- **Prompt-Driven Architecture:** prototipado rápido asistido por IA, refinamiento manual de bajo nivel.
+- **FOSS & Privacy-First:** 100% local, zero telemetry, zero cloud dependencies.
+- **Native Performance:** strict compilation, memory control and static binaries.
+- **Prompt-Driven Architecture:** AI-assisted rapid prototyping, manual low-level refinement.
 
-## 🛠️ Proyectos Activos
+## 🛠️ Active Projects
 
 <!-- AUTO-UPDATE:START -->
-*Esta sección se actualiza automáticamente con mis últimos commits.*
+*This section updates itself with my latest commits.*
 <!-- AUTO-UPDATE:END -->
 
-## ⚡ Actividad Reciente
+## ⚡ Recent Activity
 
 <!-- ACTIVITY-START -->
-*Esperando datos de la terminal...*
+*Waiting for data from the terminal...*
 <!-- ACTIVITY-END -->
 
 ---
