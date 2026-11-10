@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">
+  <style>
+    @keyframes pulse {
+      0% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+    @keyframes scan {
+      0% { transform: translateY(-20px); }
+      100% { transform: translateY(120px); }
+    }
+    .red { fill: #AE1C28; animation: pulse 2s infinite alternate; }
+    .white { fill: #FFFFFF; animation: pulse 2s infinite alternate 0.5s; }
+    .blue { fill: #21468B; animation: pulse 2s infinite alternate 1s; }
+    .scanline { 
+      fill: rgba(255, 255, 255, 0.2); 
+      animation: scan 3s linear infinite; 
+    }
+  </style>
+  
+  <!-- Fondo (opcional, para que se vea como terminal) -->
+  <rect width="400" height="100" fill="#0d1117" rx="8"/>
+  
+  <!-- Líneas de la bandera -->
+  <rect class="red" x="50" y="25" width="300" height="16" />
+  <rect class="white" x="50" y="42" width="300" height="16" />
+  <rect class="blue" x="50" y="59" width="300" height="16" />
+  
+  <!-- Efecto de escaneo -->
+  <rect class="scanline" x="50" y="0" width="300" height="4" />
+</svg>
