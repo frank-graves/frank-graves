@@ -80,6 +80,6 @@ next = swap(
 if (next === readme) {
   console.log('ship log: no change')
 } else {
-  await writeFile(README, next)
+  await writeFile(README, next, 'utf8')
   console.log(`ship log: ${projects.length} projects, ${activity.length} commits`)
 }
