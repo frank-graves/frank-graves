@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="trollface.svg" alt="Trollface" width="500" />
+  <img src="trollface.svg" alt="Trollface" />
 </div>
 
 # frank-graves | `DQC Interactive`
