@@ -45,7 +45,7 @@
 <!-- ACTIVITY-START -->
 *Esperando datos de la terminal...*
 <!-- ACTIVITY-END -->
-<div align="center">
+
 ```text
 ⠀⠀⠀⠀⠀⠀⠀⢀⣠⡤⠐⠊⠉⠉⠀⠀⠈⠑⠄⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⣴⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡄⠀⠀⠀⠀⠀
@@ -61,7 +61,6 @@
 ⠀⠈⢻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⣠⠃
 ⠀⠀⠘⡳⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠋⠀
 ```
-</div>
 <br>
 <div align="center">
   <i>Built with pure code, strict rules, and zero cloud.</i>
