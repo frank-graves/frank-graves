@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="trollface.svg" alt="Trollface" />
-</div>
-
 # frank-graves | `DQC Interactive`
 
 **D**eepSeek · **Q**wen · **C**laude **Interactive**
@@ -38,6 +34,10 @@
 <!-- ACTIVITY-END -->
 
 ---
+
+<div align="center">
+  <img src="trollface.svg" alt="Trollface" />
+</div>
 
 <div align="center">
 <i>Built with pure code, strict rules, and zero cloud.</i>
