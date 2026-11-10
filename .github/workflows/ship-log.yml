@@ -1,32 +1,30 @@
-name: ship log
+name: Auto-Update README
 
 on:
   schedule:
-    - cron: '23 5 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 0 * * *' # Todos los días a medianoche
+  workflow_dispatch: # Permite ejecutarlo a mano
 
 jobs:
-  refresh:
+  update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permiso para hacer commit de vuelta al repo
     steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
-      - run: bun run scripts/ship-log.ts
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run Update Script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: commit if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          chmod +x scripts/ship-log.sh
+          ./scripts/ship-log.sh
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'DQC Bot'
+          git config --global user.email 'bot@dqc.interactive'
           git add README.md
-          if git diff --staged --quiet; then
-            echo "no change"
-          else
-            git commit -m "chore: refresh ship log"
-            git push
-          fi
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto-update README [skip ci]"
+          git push
