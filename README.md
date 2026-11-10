@@ -1,6 +1,4 @@
-<div align="center">
 # frank-graves | `DQC Interactive`
-</div>
 
 **D**eepSeek · **Q**wen · **C**laude **Interactive**
 
