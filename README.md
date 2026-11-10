@@ -1,3 +1,5 @@
+<div align="center">
+
 # frank-graves | `DQC Interactive`
 
 **D**eepSeek · **Q**wen · **C**laude **Interactive**
@@ -15,19 +17,19 @@
 
 ---
 
-## 🧠 Development Philosophy
+### `[::]` Development Philosophy
 
-- **FOSS & Privacy-First:** 100% local, zero telemetry, zero cloud dependencies.
-- **Native Performance:** strict compilation, memory control and static binaries.
-- **Prompt-Driven Architecture:** AI-assisted rapid prototyping, manual low-level refinement.
+*   **FOSS & Privacy-First:** 100% local, zero telemetry, zero cloud dependencies.
+*   **Native Performance:** Strict compilation, memory control and static binaries.
+*   **Prompt-Driven Architecture:** AI-assisted rapid prototyping, manual low-level refinement.
 
-## 🛠️ Active Projects
+### `//` Active Projects
 
 <!-- AUTO-UPDATE:START -->
 *This section updates itself with my latest commits.*
 <!-- AUTO-UPDATE:END -->
 
-## ⚡ Recent Activity
+### `>>` Recent Activity
 
 <!-- ACTIVITY-START -->
 *Waiting for data from the terminal...*
