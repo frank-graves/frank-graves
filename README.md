@@ -26,13 +26,21 @@
 ### `//` Active Projects
 
 <!-- AUTO-UPDATE:START -->
-*This section updates itself with my latest commits.*
+> [**py-privacy-cam**](https://github.com/frank-graves/py-privacy-cam)
+> [**privacy-cam**](https://github.com/frank-graves/privacy-cam)
+> [**vehicular-desktop**](https://github.com/frank-graves/vehicular-desktop)
+> [**Buzzheavier-Client**](https://github.com/frank-graves/Buzzheavier-Client)
+> [**aiprobe**](https://github.com/frank-graves/aiprobe) — FOSS CLI to probe and profile the internal APIs of AI web apps.
 <!-- AUTO-UPDATE:END -->
 
 ### `>>` Recent Activity
 
 <!-- ACTIVITY-START -->
-*Waiting for data from the terminal...*
+> `py-privacy-cam` <- Remove default configuration section <sub>2026-11-09</sub>
+> `privacy-cam` <- v0.0.1 <sub>2026-11-06</sub>
+> `vehicular-desktop` <- refactor: eliminar referencias externas y actualizar documentación <sub>2026-11-06</sub>
+> `Buzzheavier-Client` <- docs: add download link and v0.1.0 limitations <sub>2026-11-05</sub>
+
 <!-- ACTIVITY-END -->
 
 ---
