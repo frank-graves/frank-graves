@@ -26,21 +26,13 @@
 ### `//` Active Projects
 
 <!-- AUTO-UPDATE:START -->
-> [**API-Rest-Bun**](https://github.com/frank-graves/API-Rest-Bun)
-> [**py-privacy-cam**](https://github.com/frank-graves/py-privacy-cam)
-> [**privacy-cam**](https://github.com/frank-graves/privacy-cam)
-> [**vehicular-desktop**](https://github.com/frank-graves/vehicular-desktop)
-> [**Buzzheavier-Client**](https://github.com/frank-graves/Buzzheavier-Client)
+> *Nothing shipped lately. The AI is on vacation.*
 <!-- AUTO-UPDATE:END -->
 
 ### `>>` Recent Activity
 
 <!-- ACTIVITY-START -->
-> `API-Rest-Bun` <- first commitv2 <sub>2026-11-11</sub>
-> `py-privacy-cam` <- Remove default configuration section <sub>2026-11-09</sub>
-> `privacy-cam` <- v0.0.1 <sub>2026-11-06</sub>
-> `vehicular-desktop` <- refactor: eliminar referencias externas y actualizar documentación <sub>2026-11-06</sub>
-
+> *Terminal is quiet. Suspiciously quiet.*
 <!-- ACTIVITY-END -->
 
 ---
