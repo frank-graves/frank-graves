@@ -26,13 +26,14 @@
 ### `//` Active Projects
 
 <!-- AUTO-UPDATE:START -->
-> *Nothing shipped lately. The AI is on vacation.*
+> [**xdrtool-0.1.0**](https://github.com/frank-graves/xdrtool-0.1.0)
 <!-- AUTO-UPDATE:END -->
 
 ### `>>` Recent Activity
 
 <!-- ACTIVITY-START -->
-> *Terminal is quiet. Suspiciously quiet.*
+> `xdrtool-0.1.0` <- Update README.md <sub>2026-11-17</sub>
+
 <!-- ACTIVITY-END -->
 
 ---
