@@ -26,12 +26,14 @@
 ### `//` Active Projects
 
 <!-- AUTO-UPDATE:START -->
+> [**API-Rest-Bun**](https://github.com/frank-graves/API-Rest-Bun)
 > [**xdrtool-0.1.0**](https://github.com/frank-graves/xdrtool-0.1.0)
 <!-- AUTO-UPDATE:END -->
 
 ### `>>` Recent Activity
 
 <!-- ACTIVITY-START -->
+> `API-Rest-Bun` <- Update README.md <sub>2026-11-19</sub>
 > `xdrtool-0.1.0` <- Update README.md <sub>2026-11-17</sub>
 
 <!-- ACTIVITY-END -->
