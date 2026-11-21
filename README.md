@@ -28,6 +28,7 @@
 <!-- AUTO-UPDATE:START -->
 > [**API-Rest-Bun**](https://github.com/frank-graves/API-Rest-Bun)
 > [**xdrtool-0.1.0**](https://github.com/frank-graves/xdrtool-0.1.0)
+> [**CarWash-ReWork**](https://github.com/frank-graves/CarWash-ReWork)
 <!-- AUTO-UPDATE:END -->
 
 ### `>>` Recent Activity
@@ -35,6 +36,7 @@
 <!-- ACTIVITY-START -->
 > `API-Rest-Bun` <- Update README.md <sub>2026-11-19</sub>
 > `xdrtool-0.1.0` <- Update README.md <sub>2026-11-17</sub>
+> `CarWash-ReWork` <- feat: final UX polish and security hardening (Phase 8) <sub>2026-11-13</sub>
 
 <!-- ACTIVITY-END -->
 
