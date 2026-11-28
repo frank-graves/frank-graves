@@ -26,7 +26,7 @@
 ### `//` Active Projects
 
 <!-- AUTO-UPDATE:START -->
-> [**CarWash-ReWork**](https://github.com/frank-graves/CarWash-ReWork)
+> [**ASCII-Camera**](https://github.com/frank-graves/ASCII-Camera) — Filtro ASCII en tiempo real para cámara, video local o generador sintético, con salida a terminal, ventana gráfica y cámara virtual. 100% FOSS, local-first, cero telemetría y renderizado vectorizado sin bucles por píxel en Python.
 > [**py-face-id**](https://github.com/frank-graves/py-face-id)
 > [**xdrtool-0.1.0**](https://github.com/frank-graves/xdrtool-0.1.0)
 > [**privacy-cam**](https://github.com/frank-graves/privacy-cam)
@@ -35,7 +35,7 @@
 ### `>>` Recent Activity
 
 <!-- ACTIVITY-START -->
-> `CarWash-ReWork` <- Minimal Changes <sub>2026-11-27</sub>
+> `ASCII-Camera` <- . <sub>2026-11-27</sub>
 > `py-face-id` <- MVP Control de Acceso Biometrico (Python/OpenCV/DeepFace/SQLite/Firestor <sub>2026-11-26</sub>
 > `xdrtool-0.1.0` <- Update README.md <sub>2026-11-17</sub>
 > `privacy-cam` <- feat: avances en detector, UI, state y pipeline; Cargo.lock actualizado <sub>2026-11-12</sub>
